@@ -23,7 +23,7 @@ description: A collection of Public Cloud Utilities
 
 # List of links in the navigation bar
 navbar-links:
-  git: "/git"
+  git: "git"
   Projects:
     - ec2imgutils: "https://github.com/SUSE-Enceladus/ec2imgutils"
     - IPA: "https://github.com/SUSE-Enceladus/ipa"
