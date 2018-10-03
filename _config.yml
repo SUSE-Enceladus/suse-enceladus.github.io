@@ -24,7 +24,10 @@ description: A collection of Public Cloud Utilities
 # List of links in the navigation bar
 navbar-links:
   Projects:
-    - GitHub Pages: "https://pages.github.com/"
+    - ec2imgutils: "https://github.com/SUSE-Enceladus/ec2imgutils"
+    - IPA: "https://github.com/SUSE-Enceladus/ipa"
+    - MASH: "https://github.com/SUSE-Enceladus/mash"
+    - openbare: "https://github.com/SUSE-Enceladus/openbare"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -68,7 +71,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
+  email: "public-cloud-dev@susecloud.net"
 #  facebook: daattali
 #  github: daattali
 #  twitter: daattali
@@ -95,7 +98,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "suse-enceladus.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
