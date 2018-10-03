@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: SUSE Enceladus
+subtitle: A collection of code and documentation related to Public Cloud
 use-site-title: true
 ---
 
