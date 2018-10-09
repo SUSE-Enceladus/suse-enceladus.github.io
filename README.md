@@ -8,7 +8,7 @@ The SUSE-Enceladus organization in GitHub was created to serve the needs of the 
 
 We strive to provide a reasonably uniform experience for all projects within the SUSE-Enceladus organization. In an effort to achieve this uniform experience we strive to document our processes and procedures. Each project will have a LICENSE, a README.md, and a CONTRIBUTING.md file that provides information about the project. However, projects do have different needs and therefore some differences are to be expected.
 
-Projects in the SUSE-Enceladus organization represent original work of the SUSE Public Cloud DevOps team. We hope our work is useful to you and we welcome any contribution. All projects in SUSE_Enceladus are in alignment with the SUSE open source policy [1] and as such we do not have a contributor agreement.
+Projects in the SUSE-Enceladus organization represent original work of the SUSE Public Cloud DevOps team. We hope our work is useful to you and we welcome any contribution. All projects in SUSE_Enceladus are in alignment with the [SUSE open source policy] [1] and as such we do not have a contributor agreement.
 
 [1]: https://opensource.suse.com/suse-open-source-policy
 
