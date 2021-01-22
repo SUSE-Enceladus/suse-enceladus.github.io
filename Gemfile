@@ -12,6 +12,4 @@ gem "github-pages", '198', group: :jekyll_plugins
 # gem 'sanitize' #SanitizationFilter
 # gem 'RedCloth' #TextileFilter
 
-# enable tzinfo-data for local build
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'jekyll-paginate'
