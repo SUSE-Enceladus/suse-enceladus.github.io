@@ -32,9 +32,9 @@ google-plus:
   icon: "fa-google-plus"
 
 email:
-  name: "Email me"
+  name: "Email Us"
   baseURL: "mailto:"
-  icon: "fa-envelope"
+  icon: "email"
 
 linkedin:
   name: "LinkedIn"
@@ -74,12 +74,12 @@ spotify:
 telephone:
   name: "Phone"
   baseURL: "tel:"
-  icon: "fa-phone"
+  icon: "phone"
 
 rss:
   name: "RSS"
   baseURL: "{{ '/feed.xml' | prepend: site.baseurl }}"
-  icon: "fa-rss"
+  icon: "rss"
 
 steam:
   name: "Steam"

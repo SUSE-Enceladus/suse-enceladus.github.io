@@ -1,0 +1,12 @@
+#product-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13pt;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+}
+
+footer.footer-content li.footer-list-item i.eos-icons {
+  margin-right: 0;
+}
