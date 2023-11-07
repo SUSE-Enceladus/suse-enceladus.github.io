@@ -25,7 +25,15 @@ body:
 
 We strive to provide a reasonably uniform experience for all projects within the [SUSE-Enceladus](https://github.com/SUSE-Enceladus) organization. In an effort to achieve this uniform experience we strive to document our processes and procedures. Each project will have a LICENSE, a README.md, and a CONTRIBUTING.md file that provides information about the project. However, projects do have different needs and therefore some differences are to be expected.
 
+id: general-guidelines
+----
+title: General Guidelines
+----
+body:
+
 Projects in the [SUSE-Enceladus](https://github.com/SUSE-Enceladus) organization represent original work of the SUSE Public Cloud DevOps team. We hope our work is useful to you and we welcome any contribution. All projects here are in alignment with the [SUSE open source policy](https://opensource.suse.com/suse-open-source-policy) and as such we do not have a contributor agreement.
+
+The projects in the [SUSE-Enceladus](https://github.com/SUSE-Enceladus) organization not accept content generated with the assistance of artificial intelligence as contributions. By submitting a pull request for review and inclusion the submitter certifies that the contribution was not generated with the assistance of AI.
 #### subsection ####
 id: projects
 ----
