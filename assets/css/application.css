@@ -1,0 +1,152 @@
+:root {
+  /* SUSE colors
+   * https://brand.suse.com/brand-system/color-palette
+   */
+  --pine-green: #0c322c;
+  --jungle-green: #30ba78;
+  --mint: #90ebcd;
+  --persimmon: #fe7c3f;
+  --fog: #efefef;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav.top {
+  background-color: var(--pine-green);
+  color: var(--fog);
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+
+  & ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    gap: 0;
+
+    & li {
+      display: inline-block;
+      color: inherit;
+      text-align: center;
+      padding: 1rem;
+      line-height: 1rem;
+
+      & a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      &:hover {
+        background-color: var(--jungle-green);
+      }
+    }
+  }
+}
+
+header {
+  height: 14em;
+  border-radius: 0 0 1em 1em;
+  padding: 3rem 1rem 0 1rem;
+
+  background-image: url('/header-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  color: var(--fog);
+  text-shadow: 0 0 0.25rem var(--pine-green);
+
+  & h1 {
+    color: inherit;
+    margin: 0 0 0.2rem 0;
+    line-height: 1.0;
+
+    & small {
+      font-weight: 300;
+      font-size: 50%;
+    }
+  }
+}
+
+.container {
+  margin: auto;
+  padding: 16px;
+  max-width: 1200px;
+}
+
+
+section {
+  padding-top: 3rem;
+
+  & h1 {
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--jungle-green);
+  }
+}
+
+section.category {
+  & .projects {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    & .project {
+      border: 1px solid lightgrey;
+      border-radius: 0.25em;
+      padding: 0.5em;
+
+      & h3 {
+        margin-top: 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+h1 {
+  font-weight: 500;
+  color: var(--pine-green);
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color: var(--jungle-green);
+}
+
+p {
+  line-height: 1.4;
+}
+
+pre {
+  font-family: 'Roboto Mono', monospace;
+  padding: 1em 0.5em;
+  overflow: scroll;
+  background-color: var(--fog);
+  border-radius: 0.5em;
+}
+
+a {
+  color: var(--jungle-green);
+}
+
+footer {
+  margin-top: 1rem;
+  border-top: 1px solid var(--fog);
+  padding-top: 0.25rem;
+  font-size: 0.6rem;
+  text-align: center;
+}

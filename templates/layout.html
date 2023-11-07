@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="{{ this.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ bag('lektorproject.project.url') }}">
+  <meta name="theme-color" content="#fafafa">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="{{ '/css/normalize.css'|asseturl }}">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Mono&display=swap');
+  </style>
+  <link rel="stylesheet" href="{{ '/css/application.css'|asseturl }}">
+</head>
+<body>
+  {% block body %}{% endblock %}
+</body>
+<script src="{{ '/js/modernizr-3.11.2.min.js'|asseturl }}"></script>
+</html>
