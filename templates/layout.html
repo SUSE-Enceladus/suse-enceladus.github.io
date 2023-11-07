@@ -1,8 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>{% block title %}{% endblock %}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,13 +13,12 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="{{ '/css/normalize.css'|asseturl }}">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Mono&display=swap');
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/application.css'|asseturl }}">
 </head>
 <body>
   {% block body %}{% endblock %}
 </body>
-<script src="{{ '/js/modernizr-3.11.2.min.js'|asseturl }}"></script>
 </html>
