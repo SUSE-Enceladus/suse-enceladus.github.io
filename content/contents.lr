@@ -21,13 +21,11 @@ id: goals
 ----
 title: Goals
 ----
-body:
-
-We strive to provide a reasonably uniform experience for all projects within the [SUSE-Enceladus](https://github.com/SUSE-Enceladus) organization. In an effort to achieve this uniform experience we strive to document our processes and procedures. Each project will have a LICENSE, a README.md, and a CONTRIBUTING.md file that provides information about the project. However, projects do have different needs and therefore some differences are to be expected.
+body: We strive to provide a reasonably uniform experience for all projects within the [SUSE-Enceladus](https://github.com/SUSE-Enceladus) organization. In an effort to achieve this uniform experience we strive to document our processes and procedures. Each project will have a LICENSE, a README.md, and a CONTRIBUTING.md file that provides information about the project. However, projects do have different needs and therefore some differences are to be expected.
 #### markdown_section ####
-id: general-guidelines
+id: guidelines
 ----
-title: General Guidelines
+title: Guidelines
 ----
 body:
 
@@ -38,6 +36,8 @@ The projects in the [SUSE-Enceladus](https://github.com/SUSE-Enceladus) organiza
 id: projects
 ----
 title: Projects
+----
+caption: Here are a few highlights from the many projects in our [repository](https://github.com/SUSE-Enceladus/)...
 ----
 body:
 
@@ -84,17 +84,13 @@ title: ec2metadata
 ------
 url: https://github.com/SUSE-Enceladus/ec2metadata
 ------
-description:
-
-A command line utility to collect meta data available in an Amazon Web Services Elastic Compute Cloud (EC2) guest instance.
+description: A command line utility to collect meta data available in an Amazon Web Services Elastic Compute Cloud (EC2) guest instance.
 ###### project ######
 title: gcemetadata
 ------
 url: https://github.com/SUSE-Enceladus/gcemetadata
 ------
-description:
-
-A command line utility to collect meta data available in an Google Compute Engine instance.
+description: A command line utility to collect meta data available in an Google Compute Engine instance.
 ##### category #####
 id: regionsrv
 -----
@@ -113,17 +109,13 @@ title: cloud-regionsrv-client
 ------
 url: https://github.com/SUSE-Enceladus/cloud-regionsrv-client
 ------
-description:
-
-Obtains cloud specific update server information from the region service and then uses this information to register the guest instance with the region-local update server.
+description: Obtains cloud specific update server information from the region service and then uses this information to register the guest instance with the region-local update server.
 ###### project ######
 title: service-access-config
 ------
 url: https://github.com/SUSE-Enceladus/service-access-config
 ------
-description:
-
-Restrict access to a server, to only specific IP ranges. Supports Apache, NGINX, HAProxy.
+description: Restrict access to a server, to only specific IP ranges. Supports Apache, NGINX, HAProxy.
 ##### category #####
 id: pint
 -----
@@ -136,17 +128,13 @@ title: public-cloud-info-service
 ------
 url: https://github.com/SUSE-Enceladus/public-cloud-info-service
 ------
-description:
-
-Enables users to lookup Public Cloud images and services information via REST API.
+description: Enables users to lookup Public Cloud images and services information via REST API.
 ###### project ######
 title: public-cloud-info-client
 ------
 url: https://github.com/SUSE-Enceladus/public-cloud-info-client
 ------
-description:
-
-Command line client to access the REST API provided by the SUSE Public Cloud Information Service.
+description: Command line client to access the REST API provided by the SUSE Public Cloud Information Service.
 ##### category #####
 id: mash
 -----
@@ -159,33 +147,25 @@ title: img-proof
 ------
 url: https://github.com/SUSE-Enceladus/img-proof
 ------
-description:
-
-A command line utility to test images in the Public Cloud
+description: A command line utility to test images in the Public Cloud
 ###### project ######
 title: mash
 ------
 url: https://github.com/SUSE-Enceladus/mash
 ------
-description:
-
-MASH provides a set of service based processes for image release automation into the Public Cloud Frameworks.
+description: MASH provides a set of service based processes for image release automation into the Public Cloud Frameworks.
 ###### project ######
 title: mash-client
 ------
 url: https://github.com/SUSE-Enceladus/mash-client
 ------
-description:
-
-A command line utility to interface with the MASH server REST API.
+description: A command line utility to interface with the MASH server REST API.
 ###### project ######
 title: obs-img-utils
 ------
 url: https://github.com/SUSE-Enceladus/obs-img-utils
 ------
-description:
-
-A command line utility and API for images in Open Build Service.
+description: A command line utility and API for images in Open Build Service.
 ##### category #####
 id: keg
 -----
@@ -198,17 +178,13 @@ title: keg
 ------
 url: https://github.com/SUSE-Enceladus/keg
 ------
-description:
-
-Kiwi Entwicklungs-Gerät (tool to produce kiwi image descriptions).
+description: Kiwi Entwicklungs-Gerät (tool to produce kiwi image descriptions).
 ###### project ######
 title: keg-recipes
 ------
 url: https://github.com/SUSE-Enceladus/keg-recipes
 ------
-description:
-
-Brews for keg (data collection to create image descriptions with keg).
+description: Brews for keg (data collection to create image descriptions with keg).
 ##### category #####
 id: deployment
 -----
@@ -217,29 +193,17 @@ title: Cluster Deployment
 projects:
 
 ###### project ######
-title: SUSE Rancher Setup
-------
-url: https://github.com/SUSE-Enceladus/suse-rancher-setup
-------
-description:
-
-Web-based user interface for simply deploying Rancher in a public cloud.
-###### project ######
 title: cloudinstancecredentials
 ------
 url: https://github.com/SUSE-Enceladus/cloudinstancecredentials
 ------
-description:
-
-A Service that extracts information from a running instance and sets the web server for the web based UI up to use http-basicauth for login purposes.
+description: A Service that extracts information from a running instance and sets the web server for the web based UI up to use http-basicauth for login purposes.
 ###### project ######
 title: get-framework-k8s-api-version
 ------
 url: https://github.com/SUSE-Enceladus/get-framework-k8s-api-version
 ------
-description:
-
-CLI tool for providing the latest supported k8s version within a specific CSP framework. Supports AKS, EKS, GKE.
+description: CLI tool for providing the latest supported k8s version within a specific CSP framework. Supports AKS, EKS, GKE.
 ###### project ######
 title: rubygem-cloud-instancetype
 ------
@@ -270,33 +234,25 @@ title: container-img-store-setup
 ------
 url: https://github.com/SUSE-Enceladus/container-img-store-setup
 ------
-description:
-
-Improve startup speed of container storage in AWS ECS hosts.
+description: Improve startup speed of container storage in AWS ECS hosts.
 ###### project ######
 title: rootgrow
 ------
 url: https://github.com/SUSE-Enceladus/rootgrow
 ------
-description:
-
-A simple wrapper for growpart.
+description: A simple wrapper for growpart.
 ###### project ######
 title: supportutils-plugin-suse-public-cloud
 ------
 url: https://github.com/SUSE-Enceladus/supportutils-plugin-suse-public-cloud
 ------
-description:
-
-A plugin for supportutils to collect system information from running instances in a Public Cloud Framework that originated from SUSE published and maintained images.
+description: A plugin for supportutils to collect system information from running instances in a Public Cloud Framework that originated from SUSE published and maintained images.
 ###### project ######
 title: susemanager-cloud-setup
 ------
 url: https://github.com/SUSE-Enceladus/susemanager-cloud-setup
 ------
-description:
-
-Scripts to help set up SUSE Manager in the public cloud.
+description: Scripts to help set up SUSE Manager in the public cloud.
 ##### category #####
 id: tools
 -----
@@ -309,17 +265,13 @@ title: cloud-formation
 ------
 url: https://github.com/SUSE-Enceladus/cloud-formation
 ------
-description:
-
-Example templates to orchestrate SUSE Linux Enterprise based workloads in Amazon EC2.
+description: Example templates to orchestrate SUSE Linux Enterprise based workloads in Amazon EC2.
 ###### project ######
 title: sle-compliance
 ------
 url: https://github.com/SUSE-Enceladus/sle-compliance
 ------
-description:
-
-Inspect all SUSE Linux instances in an AWS account for proper billing meters.
+description: Inspect all SUSE Linux instances in an AWS account for proper billing meters.
 ##### category #####
 id: devops
 -----
@@ -332,16 +284,12 @@ title: monitoring
 ------
 url: https://github.com/SUSE-Enceladus/monitoring
 ------
-description:
-
-A collection of plugins for Nagios/Icinga that we use to monitor our update infrastructure in the Public Cloud.
+description: A collection of plugins for Nagios/Icinga that we use to monitor our update infrastructure in the Public Cloud.
 ###### project ######
 title: update-infra-utils
 ------
 url: https://github.com/SUSE-Enceladus/update-infra-utils
 ------
-description:
-
-A collection of utilities used to help with maintenance and setup of the SUSE operated update infrastructure in Public Cloud Frameworks.
+description: A collection of utilities used to help with maintenance and setup of the SUSE operated update infrastructure in Public Cloud Frameworks.
 ---
 footer: Copyright © 2023 SUSE - Public Cloud Team &bull; Cover image: [NASA/JPL-Caltech](https://www.nasa.gov/image-feature/illustration-of-cassini-spacecraft-diving-through-plume-of-ocean-world-enceladus)
