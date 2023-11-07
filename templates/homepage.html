@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block body %}
+<nav class="top">
+  <ul>
+    {% for blk in this.body.blocks %}
+    <li>
+      <a href="#{{ blk.id }}">{{ blk.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+<header>
+  <h1>
+    {{ this.title }}<br>
+    <small>{{ this.subtitle }}</small>
+  </h1>
+</header>
+<div class="container">
+  {{ this.body }}
+</div>
+<footer>
+  {{ this.footer }}
+</footer>
+{% endblock %}
