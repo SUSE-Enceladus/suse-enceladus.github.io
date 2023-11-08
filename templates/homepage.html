@@ -2,13 +2,18 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 <nav class="top">
-  <ul>
-    {% for blk in this.body.blocks %}
-    <li>
-      <a href="#{{ blk.id }}">{{ blk.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+  <img id="logo" src="{{ 'SUSE_Logo-hor_L_White-neg_sRGB.svg' | url }}">
+  <div>
+    <input class="menu" type="checkbox" id="side-menu"/>
+    <label class="menu" for="side-menu"></label>
+    <ul>
+      {% for blk in this.body.blocks %}
+      <li>
+        <a href="#{{ blk.id }}" onclick="document.getElementById('side-menu').checked = false;">{{ blk.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </nav>
 <header>
   <h1>
