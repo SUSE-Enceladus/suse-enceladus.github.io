@@ -22,7 +22,7 @@ Please see https://www.getlektor.com/docs/installation/ for instructions on sett
 
 ### Documents
 
-Each document is represented as a _page_ object, stored in a `contents.lr` file, nested under [content](/content). Please see the [Lektor content docs](https://www.getlektor.com/docs/content/) for more details on how this works. In short, the structure of content is defined in the model (in the /models dir.), the content tselfis defined in the lektor file (in /contents), and that is rendered into a template defined in /templates.
+Each document is represented as a _page_ object, stored in a `contents.lr` file, nested under [content](/content). Please see the [Lektor content docs](https://www.getlektor.com/docs/content/) for more details on how this works. In short, the structure of content is defined in the model (in the /models dir.), the content itself is defined in the lektor file (in /contents), and that is rendered into a template defined in /templates.
 
 
 There is currently one document in this project: the home page. It's an instance of the [homepage model](/models/homepage.ini). This page also includes nested elements ([flow blocks](https://www.getlektor.com/docs/content/flow/) in Lektor terminology). Both the homepage model, and any nested blocks define attributes. Those attributes are then rendered into the [homepage template](/templates/homepage.html) (which is nested in the [layout template](/templates/layout.html)).
